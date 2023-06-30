@@ -93,6 +93,14 @@ ul li.checked {
 
 ul li.checked::before {
   background-image: url(./checked.png);
+  background-size: cover;
+  background-position: center;
+  left: 1rem;
+  content: "";
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
 }
 
 ul li span {
